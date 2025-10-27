@@ -1,4 +1,4 @@
-# Homework 2 : Model bridge experiment data analysis
+# Homework 3 : Model bridge experiment data analysis
 
 Click the icon below to start the homework 
 
