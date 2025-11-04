@@ -1,4 +1,4 @@
-# Quiz 5: wildfire evacuation in North Berkeley
+# Quiz 6: wildfire evacuation in North Berkeley
 
 ## Overview
 
