@@ -57,11 +57,11 @@ Upload `contraflow_links_last_first.csv` under the `traffic_inputs` folder. Run 
 
 ## Submission
 Your submissions consist of two parts:
-1. TBD, 11:59 pm PDT: 
+1. November 8th, 11:59 pm PST: 
     * A CSV file, titled `contraflow_links_last_first.csv` that reflects the changes in the network according your contraflow strategy.
     * Time stepped arrival counts: `t_stats_base_last_first.csv` and `t_stats_contraflow_last_first.csv`. These are outputs from the simulation code.
     * Some text justifying your selection of contraflow locations.
-2. TBD, 11:59 PM PDT:
+2. November 15th, 11:59 PM PST:
     * Report. Since the report will be due after we have reviewed the contraflow locations and results of the whole class, it is okay to update your contraflow locations in the report compared to what you submitted on TBD. The report should include at least the following parts:
       * Introduction
       * Model description and assumptions
@@ -71,9 +71,9 @@ Your submissions consist of two parts:
 
 ## Evaluation
 You will be evaluated mostly by the following criteria:
-1. The `contraflow_links_[your_name].csv`: the total numbers of intersections involved are no more than 15 (day time) or 10 (night time).
-2. The `contraflow_links_[your_name].csv`: when you increase the number of lanes on one side of the road, the number of lanes on the opposite side should reduce accordingly.
-4. The `contraflow_links_[your_name].csv`: the code should be able to run with this input file.
+1. The `contraflow_links_last_first.csv`: the total numbers of intersections involved are no more than 15 (day time) or 10 (night time).
+2. The `contraflow_links_last_first.csv`: when you increase the number of lanes on one side of the road, the number of lanes on the opposite side should reduce accordingly.
+4. The `contraflow_links_last_first.csv`: the code should be able to run with this input file.
 5. You will **NOT** be evaluated by a single measure effectiveness of your contraflow strategy. For example, even if under your strategy, the arrival curve is lower, or the time it takes for all evacuees to arrive at the safe destination (i.e., "network clearance time") is longer, you will not be penalized. Instead, please emphasis on the reason for your choice of contraflow locations. For example, "people can get away from the source of the danger faster", "people can leave the evacuation zone faster, though they may spend more time outside of their evacuation zone", or "the road is wider and easier for heavy traffic to pass". Please include your thoughts in designing your strategy, so that we will be able to review a diverse range of scenarios in our last class.
 6. Quality of report. The elements of the report are outlined above. Please make sure to include a good discussion based on what you found.
 
