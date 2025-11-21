@@ -1,16 +1,15 @@
+# Load libraries
 from __future__ import print_function
-
 from sys import argv
 from ctypes import *
 from numpy.ctypeslib import ndpointer
 import pandas as pd
 import numpy as np
+import os
 
-# import os 
-# absolute_path = os.path.dirname(os.path.abspath(__file__))
-
-# libsp = cdll.LoadLibrary(absolute_path+"/build/liblsp.dylib")
-libsp = cdll.LoadLibrary("/content/sp/liblsp.so")
+# Get absolute path of shared library
+absolute_path = os.path.dirname(os.path.abspath(__file__))
+libsp = cdll.LoadLibrary(absolute_path + "/liblsp.so")
 libsp.distance.restype = c_double
 
 class ShortestPath(Structure):
